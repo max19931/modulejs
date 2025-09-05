@@ -1,9 +1,7 @@
 {
   "name": "modulejs",
-  "version": "2.7.0",
+  "version": "2.11.0",
   "description": "Lightweight JavaScript module system.",
-  "homepage": "https://larsjung.de/modulejs/",
-  "bugs": "https://github.com/lrsjng/modulejs/issues",
   "author": "Lars Jung <lrsjng@gmail.com> (https://larsjung.de)",
   "license": "MIT",
   "repository": {
@@ -20,15 +18,13 @@
     "precommit": "npm run -s check && npm run -s build"
   },
   "devDependencies": {
-    "@babel/core": "7.4.4",
-    "@babel/preset-env": "7.4.4",
-    "@babel/register": "7.4.4",
-    "eslint": "5.16.0",
-    "ghu": "0.19.0",
-    "nyc": "14.0.0",
-    "scar": "1.7.0"
-  },
-  "engines": {
-    "node": ">=8.0.0"
+    "@babel/core": "7.26.0",
+    "@babel/preset-env": "7.26.0",
+    "@babel/register": "7.25.9",
+    "eslint": "9.14.0",
+    "ghu": "0.28.5",
+    "globals": "15.12.0",
+    "nyc": "17.1.0",
+    "scar": "2.3.4"
   }
 }
